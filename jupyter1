@@ -1,0 +1,6 @@
+#use jupyter notebook to show bloch sphere.Amazing!!
+import matplotlib.pyplot as plt
+from qiskit.visualization import plot_histogram, plot_bloch_vector
+from qiskit import QuantumCircuit
+import numpy as np
+plot_bloch_vector([0,1,0])
