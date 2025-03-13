@@ -1,0 +1,9 @@
+from qiskit import QuantumCircuit
+from qiskit.visualization import plot_state_city
+circuit=QuantumCircuit(3)
+circuit.h(0)
+circuit.cx(0,1)
+circuit.cx(0,2)
+
+circuit.draw(output='mpl')
+
